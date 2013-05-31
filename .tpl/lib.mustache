@@ -1,0 +1,16 @@
+define(function(){
+	'use strict';
+
+{{#isModule}}	return function(sandbox){
+		return {
+			init: function(c){
+				sandbox.subscribe("help:update", function(payload){
+					document.getElementById(c.id).innerHTML = payload.msg
+				})
+			}/*,
+			destroy: function(){
+
+			}*/
+		};
+	};{{/isModule}}
+});

@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "akase": "latest",
+    "require": "http://requirejs.org/docs/release/2.1.1/minified/require.js",
+    "sinon": "http://sinonjs.org/releases/sinon-1.7.1.js"
+  }
+}

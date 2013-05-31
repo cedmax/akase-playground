@@ -1,0 +1,14 @@
+require([
+	'akase',
+	'module/example'
+], function(core){
+	'use strict';
+
+	core.start('module/example', {
+		config: { id: 'help'}
+	});
+
+	core.notify('help:update', {
+		msg: 'well done!'
+	});
+});
