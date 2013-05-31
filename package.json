@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "postinstall": "./node_modules/grunt-cli/bin/grunt init",
-    "test": "grunt test"
+    "test": "./node_modules/grunt-cli/bin/grunt jshint unit"
   },
   "devDependencies": {
     "grunt-bower": "~0.5.1",

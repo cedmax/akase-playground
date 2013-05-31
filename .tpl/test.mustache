@@ -4,7 +4,7 @@ require(['akase', '{{type}}/{{{name}}}'], function(core{{^isModule}}, {{name}}{{
 
 	{{#isModule}}
 	module('{{{name}}}', {
-		setup: function(){ document.body.innerHTML = '<div id="fake"></div>'},
+		setup: function(){ document.body.innerHTML = '<div id="fake"></div>'; },
 		teardown: function(){}
 	});
 	{{/isModule}}

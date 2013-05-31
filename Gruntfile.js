@@ -95,7 +95,8 @@ module.exports = function(grunt) {
             }
         },
         clean: {
-            bower: ['components', 'js', 'test', "index.html"]
+            bower: ['components'],
+            libs: ['js', 'test', "index.html"]
         },
         bower: {
             dev: {
