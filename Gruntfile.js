@@ -68,7 +68,7 @@ module.exports = function(grunt) {
                 }
             },
             lib: {
-                src: ['js/**/*.js', '!js/lib/**/*.js']
+                src: ['js/**/*.js', '!js/lib/**/*.js', '!js/public/**/*.js']
             },
             override: {
                 options: {
@@ -125,7 +125,7 @@ module.exports = function(grunt) {
         htmlrefs: {
             dist: {
                 src: 'src/index.html',
-                dest: '.'
+                dest: './index.html'
             }
         },
         requirejs: {
@@ -136,7 +136,7 @@ module.exports = function(grunt) {
                     paths: {
                         akase: 'lib/akase',
                     },
-                    out: "js/main/main.min.js",
+                    out: "js/public/main.min.js",
                     name: "main/main"
                 }
             }
