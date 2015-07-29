@@ -2,7 +2,7 @@
   "name": "newProject",
   "version": "1.0.0",
   "scripts": {
-    "postinstall": "./node_modules/grunt-cli/bin/grunt init",
+    "postinstall": "./node_modules/grunt-cli/bin/grunt reset init",
     "test": "./node_modules/grunt-cli/bin/grunt jshint unit"
   },
   "devDependencies": {
